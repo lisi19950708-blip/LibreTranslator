@@ -340,10 +340,10 @@ const App = () => {
     return (
         <div className="container">
             <div className="app-header">
-                <h1 className="app-title">LibreTranslator</h1>
+                <h1 className="app-title">风云鼎</h1>
                 <div className="app-controls">
                     <div className="language-switcher">
-                        <label>Lang:</label>
+                        <label>语言:</label>
                         <select onChange={changeLanguage} value={i18n.language}>
                             <option value="en">English</option>
                             <option value="zh">中文</option>
@@ -503,8 +503,8 @@ const App = () => {
             )}
             
             <footer className="footer">
-                <a href="https://github.com/bestZwei/LibreTranslator" target="_blank" rel="noopener noreferrer">GitHub</a>
-                <span> | {t('poweredBy')}</span>
+                <a href="https://www.xiaogangcpm.dpdns.org/" target="_blank" rel="noopener noreferrer">风云鼎</a>
+                <span> | powered By 风云鼎</span>
             </footer>
             
             {/* History Panel */}
