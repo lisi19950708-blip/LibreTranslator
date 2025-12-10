@@ -340,7 +340,7 @@ const App = () => {
     return (
         <div className="container">
             <div className="app-header">
-                <h1 className="app-title">风云鼎</h1>
+                <h1 className="app-title">风云鼎-免费在线翻译</h1>
                 <div className="app-controls">
                     <div className="language-switcher">
                         <label>语言:</label>
